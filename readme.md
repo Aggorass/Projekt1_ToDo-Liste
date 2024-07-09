@@ -34,4 +34,4 @@ Die Todo-Listen App ist eine einfache, aber leistungsstarke Anwendung zur Verwal
 
 1. Klonen Sie das Repository:
    ```bash
-   git clone https://
+   git clone https://github.com/Aggorass/Projekt1_ToDo-Liste.git

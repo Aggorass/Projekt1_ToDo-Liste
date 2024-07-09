@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    background: radial-gradient(circle at top left, #79e5fa, #6bc4fa);
+    /*background-color: rgb(120, 228, 228);*/
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
