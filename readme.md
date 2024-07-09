@@ -8,7 +8,6 @@
 4. [Verwendung](#verwendung)
 5. [API-Dokumentation](#api-dokumentation)
 6. [Mitwirkende](#mitwirkende)
-7. [Lizenz](#lizenz)
 
 ## Überblick
 
@@ -27,8 +26,8 @@ Die Todo-Listen App ist eine einfache, aber leistungsstarke Anwendung zur Verwal
 
 ### Voraussetzungen
 
-- [Node.js](https://nodejs.org/) (Version 12 oder höher)
-- [npm](https://www.npmjs.com/) (wird normalerweise mit Node.js installiert)
+- [Node.js](https://nodejs.org/) (Version 20.15.1)
+- [npm](https://www.npmjs.com/) (Version 10.8.1)
 
 ### Schritte
 
