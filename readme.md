@@ -5,9 +5,6 @@
 1. [Überblick](#überblick)
 2. [Funktionen](#funktionen)
 3. [Installation](#installation)
-4. [Verwendung](#verwendung)
-5. [API-Dokumentation](#api-dokumentation)
-6. [Mitwirkende](#mitwirkende)
 
 ## Überblick
 
@@ -34,3 +31,7 @@ Die Todo-Listen App ist eine einfache, aber leistungsstarke Anwendung zur Verwal
 1. Klonen Sie das Repository:
    ```bash
    git clone https://github.com/Aggorass/Projekt1_ToDo-Liste.git
+
+2. ???
+
+3. Server starten: ng serve
