@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { TralalaComponent } from './tralala/tralala.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,TralalaComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -13,3 +12,5 @@ import { TralalaComponent } from './tralala/tralala.component';
 export class AppComponent {
   title = 'todoApp';
 }
+
+//in Zeile 8 in das Array einfügen und in Zeile 3 Import NameComponent
