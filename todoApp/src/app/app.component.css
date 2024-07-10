@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.app-container {
+    background-color: var(--primary-color);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header input {
+    flex-grow: 1;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 4px;
+}
+
+.header button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--secondary-color);;
+    color: var(--button-text-color);
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.header button:hover {
+    background-color: var(--secondary-hover-color);
+}
+
+.main ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--tertiary-color);
+}
+
+.task-item label {
+    flex-grow: 1;
+}
+
+.task-item .delete-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--error-color);
+    color: var(--button-text-color);
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.task-item .delete-button:hover {
+    background-color: var(--error-hover-color);
+}
