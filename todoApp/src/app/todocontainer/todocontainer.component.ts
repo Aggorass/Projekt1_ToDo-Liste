@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { HeadercontainerComponent } from './headercontainer/headercontainer.component';
-import { BodycontainerComponent } from './bodycontainer/bodycontainer.component';
+import { TaskcontainerComponent } from './taskcontainer/taskcontainer.component';
 
 @Component({
   selector: 'app-todocontainer',
   standalone: true,
-  imports: [HeadercontainerComponent,BodycontainerComponent],
+  imports: [TaskcontainerComponent],
   templateUrl: './todocontainer.component.html',
   styleUrl: './todocontainer.component.css'
 })
