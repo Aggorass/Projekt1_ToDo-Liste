@@ -1,7 +1,12 @@
-<header class="header">
-    <h1>Meine To-Do-Liste</h1>
-    <input type="text" id="new-task-input" placeholder="Neue Aufgabe hinzufügen...">
-    <button id="add-task-button">Hinzufügen</button>
-</header>
+<form (ngSubmit)="onsubmit()">
+    <header class="header">
+        <h1>Meine To-Do-Liste</h1>
+        <input type="text" name="taskvar1" id="new-task-input" placeholder="Neue Aufgabe hinzufügen..." [(ngModel)]="Taskvar" >
+        <button id="add-task-button" type="submit">Hinzufügen</button>
+    </header>
+</form>
 
-<app-currenttaskcontainer></app-currenttaskcontainer>
+@for (Task of getUserTasks;track Task.id) {
+   <app-currenttaskcontainer [Currentask]="Task"></app-currenttaskcontainer>
+}
+
